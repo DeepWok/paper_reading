@@ -15,7 +15,7 @@
 A repository for curated lists of papers that is relevant to our research, for a quick summary of the topics:
 
 - [Large Language Models](./llm)
-  - [Models and architectures](./llm/models.md)
+  - [Models and Architectures](./llm/models.md)
   - [Long Range Transformers](./llm/long_range.md)
   - [Quantization](./llm/quantization.md)
   - [Parameter Efficient Finetuning](./llm/peft.md)

@@ -25,7 +25,7 @@ A curated list of LLM Quantization papers, partially taken from Sudarsharm Sreer
 | [Quantizable Transformers: Removing Outliers by Helping Attention Heads Do Nothing](<https://arxiv.org/abs/2306.12929>) | Arxiv | [Github](https://github.com/SqueezeAILab/SqueezeLLM) | [Note](#quantizable-transformers-removing-outliers-by-helping-attention-heads-do-nothing) |
 | [SpQR: A sparse-quantised representation for near-lossless LLM weight compression](https://arxiv.org/abs/2306.03078) | Arxiv | [Github](https://github.com/Vahe1994/SpQR) | - |
 | [AWQ: Activation-aware weight quantization for LLM compression and acceleration](https://arxiv.org/abs/2306.00978) | Arxiv | [Github](https://github.com/mit-han-lab/llm-awq) | - |
-| [LLM-QAT: Data-Free Quantization Aware Training for Large Language Models]([<https://arxiv.org/abs/2306.00978>]) | Arxiv | [Github](https://github.com/facebookresearch/LLM-QAT) | - |
+| [LLM-QAT: Data-Free Quantization Aware Training for Large Language Models](<https://arxiv.org/abs/2306.00978>) | Arxiv | [Github](https://github.com/facebookresearch/LLM-QAT) | - |
 | [ZeroQuant-V2: Exploring post-training quantisation in LLMs from comprehensive study to low rank compensation](https://arxiv.org/abs/2303.08302) | Arxiv | - | - |
 | [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) | Arxiv | [Github](https://github.com/artidoro/qlora) | - |
 | [Memory-efficient fine-tuning of compressed large language models via sub-4-bit integer quantisation](https://arxiv.org/abs/2305.14152) | Arxiv | [Github](https://github.com/artidoro/qlora) | - |
