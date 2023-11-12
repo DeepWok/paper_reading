@@ -16,6 +16,7 @@ A curated list of LLM Quantization papers, partially taken from Sudarsharm Sreer
 
 |  Title  |   Venue  |   Code   |   Notes  |
 |:--------|:--------:|:--------:|:--------:|
+| [BitNet: Scaling 1-bit Transformers for Large Language Models](<https://arxiv.org/abs/2310.11453>) | Arxiv | - | - |
 | [Microscaling Data Formats for Deep Learning](https://arxiv.org/abs/2310.10537) | Arxiv | [Github](https://github.com/microsoft/microxcaling) | - |
 | [With Shared Microexponents, A Little Shifting Goes a Long Way](https://arxiv.org/abs/2302.08007) | ISCA | - | - |
 | [QuIP: 2-bit quantisation of large language models with guarantees](https://arxiv.org/abs/2307.13304) | Arxiv | [Github](https://github.com/jerry-chee/QuIP) | - |
