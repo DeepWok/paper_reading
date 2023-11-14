@@ -1,6 +1,6 @@
 # LLM Quantization
 
-Maintainers - [Aaron Zhao](https://aaron-zhao123.github.io/)
+Maintainers - [Aaron Zhao](https://aaron-zhao123.github.io/) and [Cheng Zhang](https://chengzhang-98.github.io/blog/)
 
 A curated list of LLM Quantization papers, partially taken from Sudarsharm Sreeram's [initial effort](<https://www.craft.me/s/WLFc7B9zgH4ncz>).
 
@@ -9,6 +9,8 @@ A curated list of LLM Quantization papers, partially taken from Sudarsharm Sreer
 - [Year 2023](#2020)
 - [Year 2022](#2019)
 - [Surveys](#awesome-surveys)
+- [Implementation references](#implementation-references)
+  - [Cuda kernels for quantization](#cuda-kernels-for-quantization)
 
 ---
 
@@ -39,7 +41,6 @@ A curated list of LLM Quantization papers, partially taken from Sudarsharm Sreer
 | [PreQuant: A Task-agnostic Quantization Approach for Pre-trained Language Models](https://arxiv.org/abs/2306.00014) | ACL | - | - |
 | [Boost Transformer-based Language Models with GPU-Friendly Sparsity and Quantization](https://aclanthology.org/2023.findings-acl.15.pdf) | ACL | - | - |
 
-
 ---
 
 ### 2022
@@ -49,7 +50,6 @@ A curated list of LLM Quantization papers, partially taken from Sudarsharm Sreer
 | [ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers](https://arxiv.org/abs/2206.01861) | Arxiv | [Github](https://github.com/microsoft/DeepSpeed) | - |
 | [LLM.int8(): 8-bit matrix multiplication for transformers at scale](https://arxiv.org/abs/2208.07339) | Arxiv | [Github](https://github.com/TimDettmers/bitsandbytes) | - |
 
-
 ---
 
 ### Surveys
@@ -58,6 +58,17 @@ A curated list of LLM Quantization papers, partially taken from Sudarsharm Sreer
 |:--------|:--------:|:--------:|:--------:|
 | [A survey on model compression for large language models](https://arxiv.org/abs/2308.07633) | - | - | - |
 
+### Implementation references
+
+#### Cuda kernels for quantization
+
+| Name |  Notes  |
+|:--------|:--------|
+| [DeepSpeed](https://github.com/microsoft/DeepSpeed) | Microsoft, Multi-GPU |
+| [Megatron-LM](https://github.com/NVIDIA/Megatron-LM) | NVIDIA, Multi-GPU |
+| [Flash Attention](https://github.com/Dao-AILab/flash-attention) | Dao-AILab (CS Princeton), Single GPU |
+| [BitsandBytes](https://github.com/TimDettmers/bitsandbytes)  | Tim Dettmers, LLM.int8(), Single GPU |
+| [MXScaling](https://github.com/microsoft/microxcaling) | Microsoft, MX |
 
 ---
 
