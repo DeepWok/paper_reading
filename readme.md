@@ -19,6 +19,10 @@ A repository for curated lists of papers that is relevant to our research, for a
   - [Long Range Transformers](./llm/long_range.md)
   - [Quantization](./llm/quantization.md)
   - [Parameter Efficient Finetuning](./llm/peft.md)
+  
+- [Computer Vision Models](./cv)
+  - [Models and Architectures](./cv/models.md)
+  - [Quantization](./cv/quantization.md)
 
 
 A collection of other awesome lists, some of these lists are no longer under actively maintained:
