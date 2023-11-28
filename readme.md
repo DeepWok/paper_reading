@@ -6,7 +6,7 @@
 
   <h1 align="center">DeepWok Paper Collection</h1>
   <p align="center">
-		Maintained by members at 
+		Maintained by members at
     <a href="https://deepwok.github.io/">DeepWok</a>
   </p>
 </div>
@@ -19,6 +19,7 @@ A repository for curated lists of papers that is relevant to our research, for a
   - [Long Range Transformers](./llm/long_range.md)
   - [Quantization](./llm/quantization.md)
   - [Parameter Efficient Finetuning](./llm/peft.md)
+  - [LLMs and Graph](./llm/graph.md)
 
 
 A collection of other awesome lists, some of these lists are no longer under actively maintained:
