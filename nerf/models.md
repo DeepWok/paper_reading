@@ -18,6 +18,7 @@ A curated list of neural radiance field (NeRF) papers.
 | [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) | 2020 | ECCV | [TF (Original)](https://github.com/bmild/nerf); [Torch](https://github.com/yenchenlin/nerf-pytorch) | [Notes](#nerf-representing-scenes-as-neural-radiance-fields-for-view-synthesis) |
 | [ICARUS: A Specialized Architecture for Neural Radiance Fields Rendering](https://arxiv.org/pdf/2203.01414.pdf) | 2022 | Arxiv | - | - |
 | [Gen-NeRF: Efficient and Generalizable Neural Radiance Fields via Algorithm-Hardware Co-Design](https://dl.acm.org/doi/abs/10.1145/3579371.3589109) | 2023 | ISCA | - | - 
+| [A Novel Hardware Accelerator of NeRF Based on Xilinx UltraScale and UltraScale+ FPGA](https://ieeexplore.ieee.org/abstract/document/10296239) | 2023 | FPL | - | - 
 ---
 
 ## Surveys
