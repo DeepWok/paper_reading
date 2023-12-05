@@ -1,2 +1,0 @@
-## Vision Transformer
-## Diffusion Models
