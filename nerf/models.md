@@ -76,31 +76,47 @@ Neural Graphics Pipeline:
 3) Compositing stage
 
 
-LUTNET
+Partial MASE Plan
+1) Should we drop LUTNet?
 - not used in PolyLUT paper
 - we already have fixed, binary, ternary and LogicNets. Sufficient search space
 - too much engineering work to implement
 
-# NeRF
-- engineering effort is too high - too many unknowns - unfeasible given time constraints
-
-NerF flow
+2) Should we drop NeRF?
+This is the NerF Flow
 x -> MLP -> y 
 
-x - N dim feature vector (encoding of spatial coordinate)
+x - N dim feature vector (encoding of spatial coordinate in the scene)
 y - 4D feature vector (R,G,B, density)
 
 What we need:
 1) Latency of this flow
 2) Accuracy of this flow
-    - We can't actually measure the accuracy of the MLP based on just one input output pair. We need to use the whole image.
-    - This is because we need to compare the difference between all the pixels of a ground truth image and the rendered image.
+    - We can't actually measure the accuracy of the MLP based on just one input-output pair. We need to use the whole image.
+    - This is because we need to compare the difference between all the pixels of a ground truth image and the rendered image (PSNR). 
+    - We can't compare just one pixel from each image
     
     - Naive way of doing this:
         i) Store all the sampled points in an array (SW) (too many samples here?)
-        ii) Apply MLP to each element in array (HW)
+        ii) Apply MLP to each element in array (HW) 
         iii) Post process array of MLP outputs to render image (SW)
 
+        We will compare the latency of ii) for different MLPs
 
-Complexity: 
-- Accuracy is not simply a pairwise loss
+This is the way we imagine it will be done.
+However the specifc engineering details required for i, ii, iii are not known.
+The engineering effort could be high.      
+It could be unfeasible given time constraints.
+Can you help with i, ii, iii? 
+If not, let's leave it.
+
+3) Targeted dataset/best model - follow PolyLUT
+- JSC
+- UNSW-NID (Cybersecurity)
+- MNIST
+
+4) LogicNets Hardware 
+
+5) Generated mixed precision hardware works
+
+6) Search algorithm
