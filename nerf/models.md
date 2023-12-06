@@ -1,4 +1,4 @@
-# LLM Quantization
+# NeRF
 
 Maintainers - [Aaron Zhao](https://aaron-zhao123.github.io/) and [Cheng Zhang](https://chengzhang-98.github.io/blog/)
 
@@ -29,6 +29,16 @@ A curated list of neural radiance field (NeRF) papers.
 | [NeRF: Neural Radiance Field in 3D Vision, Introduction and Review](https://arxiv.org/pdf/2210.00379.pdf) | - | - | - |
 
 ---
+
+## Pareto Frontier of real time view synthesis (2023): 
+https://twitter.com/jon_barron/status/1707068958502003074
+
+This guy does alot of NeRF research:
+https://jonbarron.info/
+
+
+https://jonbarron.info/zipnerf/
+https://jonbarron.info/mipnerf360/
 
 ## Notes
 
