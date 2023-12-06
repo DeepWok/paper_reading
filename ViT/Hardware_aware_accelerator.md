@@ -42,3 +42,5 @@ This paper introduces a novel Vision-Transformer Accelerator designed to address
 #### HeatViT: Hardware-Efficient Adaptive Token Pruning for Vision Transformers
 
 Pruned ViT
+
+
