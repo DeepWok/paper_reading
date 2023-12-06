@@ -20,8 +20,11 @@ A curated list of neural radiance field (NeRF) papers.
 | [Gen-NeRF: Efficient and Generalizable Neural Radiance Fields via Algorithm-Hardware Co-Design](https://dl.acm.org/doi/abs/10.1145/3579371.3589109) | 2023 | ISCA | - | - 
 | [A Novel Hardware Accelerator of NeRF Based on Xilinx UltraScale and UltraScale+ FPGA](https://ieeexplore.ieee.org/abstract/document/10296239) | 2023 | FPL | - | - 
 | [An Energy Efficient Precision Scalable Computation Array for Neural Radiance Field Accelerator](https://ieeexplore.ieee.org/abstract/document/10090268) | 2022 | APCCAS | - | -
----
+| [Zip-NeRF: Anti-Aliased Grid-Based Neural Radiance Fields](https://jonbarron.info/zipnerf/) | 2023 | ICCV | - | -
+| [Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields](https://jonbarron.info/mipnerf360/) | 2022 | CVPR | - | -
+| [Efficient Neural Radiance Fields for Interactive Free-viewpoint Video](https://zju3dv.github.io/enerf/) | 2022 | SIGGRAPH | - | -
 
+---
 ## Surveys
 
 |  Title  |   Year   |   Venue  |   Code   |
@@ -30,15 +33,12 @@ A curated list of neural radiance field (NeRF) papers.
 
 ---
 
-## Pareto Frontier of real time view synthesis (2023): 
-https://twitter.com/jon_barron/status/1707068958502003074
+## [Pareto Frontier of real time view synthesis (2023)](https://twitter.com/jon_barron/status/1707068958502003074): 
+![image](imgs/nerf_pareto.jpg)
+
 
 This guy does alot of NeRF research:
 https://jonbarron.info/
-
-
-https://jonbarron.info/zipnerf/
-https://jonbarron.info/mipnerf360/
 
 ## Notes
 
