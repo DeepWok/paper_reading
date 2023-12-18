@@ -16,7 +16,7 @@ A curated list of neural radiance field (NeRF) papers.
 |  Title  |   Year   |   Venue  |   Code   |   Notes  |
 |:--------|:--------:|:--------:|:--------:|:--------:|
 | [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/abs/2003.08934) | 2020 | ECCV | [TF (Original)](https://github.com/bmild/nerf); [Torch](https://github.com/yenchenlin/nerf-pytorch) | [Notes](#nerf-representing-scenes-as-neural-radiance-fields-for-view-synthesis) |
-| [ICARUS: A Specialized Architecture for Neural Radiance Fields Rendering](https://arxiv.org/pdf/2203.01414.pdf) | 2022 | Arxiv | - | - |
+| [ICARUS: A Specialized Architecture for Neural Radiance Fields Rendering](https://arxiv.org/pdf/2203.01414.pdf) | 2022 | arXiv | - | - |
 | [Gen-NeRF: Efficient and Generalizable Neural Radiance Fields via Algorithm-Hardware Co-Design](https://dl.acm.org/doi/abs/10.1145/3579371.3589109) | 2023 | ISCA | - | - 
 | [A Novel Hardware Accelerator of NeRF Based on Xilinx UltraScale and UltraScale+ FPGA](https://ieeexplore.ieee.org/abstract/document/10296239) | 2023 | FPL | - | - 
 | [An Energy Efficient Precision Scalable Computation Array for Neural Radiance Field Accelerator](https://ieeexplore.ieee.org/abstract/document/10090268) | 2022 | APCCAS | - | -
@@ -25,6 +25,9 @@ A curated list of neural radiance field (NeRF) papers.
 | [Efficient Neural Radiance Fields for Interactive Free-viewpoint Video](https://zju3dv.github.io/enerf/) | 2022 | SIGGRAPH | - | -
 | [FastNeRF: High-Fidelity Neural Rendering at 200FPS](https://microsoft.github.io/FastNeRF/) | 2021 | - | - | -
 | [Hardware Acceleration of Neural Graphics](https://arxiv.org/pdf/2303.05735.pdf) | 2023 | ICSA | - | -
+| [BiNeRF: Binary Radiance Fields](https://arxiv.org/abs/2306.07581) | 2023 | arXiv | - | -
+| [SMERF: Streamable Memory Efficient Radiance Fields for Real-Time Large-Scene Exploration](https://smerf-3d.github.io/) | 2023 | arXiv | 
+
 
 ---
 ## Surveys
@@ -63,60 +66,3 @@ NeRF is just one of a family of Neural Graphics algorithms.
 - Neural Radiance Field (NeRF)
 - GigaPixel Image Approximation (GIA)
 - Neural Volume Rendering (NVR)
-
-Neural Graphics Pipeline:
-
-1) Input stage
-    a) Fixed-function encoding
-    b) Multiresolution grid encoding
-    c) 
-2) Neural Inference stage
-    This is a learned mapping from spatial coordinates to colours and volumes. 
-    
-3) Compositing stage
-
-
-Partial MASE Plan
-1) Should we drop LUTNet?
-- not used in PolyLUT paper
-- we already have fixed, binary, ternary and LogicNets. Sufficient search space
-- too much engineering work to implement
-
-2) Should we drop NeRF?
-This is the NerF Flow
-x -> MLP -> y 
-
-x - N dim feature vector (encoding of spatial coordinate in the scene)
-y - 4D feature vector (R,G,B, density)
-
-What we need:
-1) Latency of this flow
-2) Accuracy of this flow
-    - We can't actually measure the accuracy of the MLP based on just one input-output pair. We need to use the whole image.
-    - This is because we need to compare the difference between all the pixels of a ground truth image and the rendered image (PSNR). 
-    - We can't compare just one pixel from each image
-    
-    - Naive way of doing this:
-        i) Store all the sampled points in an array (SW) (too many samples here?)
-        ii) Apply MLP to each element in array (HW) 
-        iii) Post process array of MLP outputs to render image (SW)
-
-        We will compare the latency of ii) for different MLPs
-
-This is the way we imagine it will be done.
-However the specifc engineering details required for i, ii, iii are not known.
-The engineering effort could be high.      
-It could be unfeasible given time constraints.
-Can you help with i, ii, iii? 
-If not, let's leave it.
-
-3) Targeted dataset/best model - follow PolyLUT
-- JSC
-- UNSW-NID (Cybersecurity)
-- MNIST
-
-4) LogicNets Hardware 
-
-5) Generated mixed precision hardware works
-
-6) Search algorithm
