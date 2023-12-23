@@ -14,6 +14,8 @@
 
 A repository for curated lists of papers that is relevant to our research, for a quick summary of the topics:
 
+- Trends 
+
 - [Large Language Models](./llm)
   - [Models and Architectures](./llm/models.md)
   - [Long Range Transformers](./llm/long_range.md)
@@ -21,7 +23,15 @@ A repository for curated lists of papers that is relevant to our research, for a
   - [Parameter Efficient Finetuning](./llm/peft.md)
   - [LLMs and Graph](./llm/graph.md)
 
+- Vision Transformers 
+ - Models and Architectures
+ - Hardware Accelerators 
 
+- Neural Implicit Representation 
+ - Models and Architectures
+
+- Graph Representational Learning 
+ - Models and Architectures
 
 A collection of other awesome lists, some of these lists are no longer under actively maintained:
 
