@@ -14,7 +14,7 @@
 
 A repository for curated lists of papers that is relevant to our research, for a quick summary of the topics:
 
-- Trends 
+- [Trends](./trends.md)
 
 - [Large Language Models](./llm)
   - [Models and Architectures](./llm/models.md)
@@ -23,15 +23,18 @@ A repository for curated lists of papers that is relevant to our research, for a
   - [Parameter Efficient Finetuning](./llm/peft.md)
   - [LLMs and Graph](./llm/graph.md)
 
-- Vision Transformers 
- - Models and Architectures
- - Hardware Accelerators 
+- [Vision Transformers](./vit)
+  - [Models and Architectures](./vit/models.md)
+  - [Hardware Accelerators](./vit/hardware_aware_accelerator.md)
 
-- Neural Implicit Representation 
- - Models and Architectures
+- [Neural Implicit Representation](./neural_implicit_rep)
+  - [Nerf](./neural_implicit_rep/nerf.md)
 
 - Graph Representational Learning 
- - Models and Architectures
+  - Models and Architectures
+
+- [AI4Science](./ai4science/)
+  - [Genomics](./ai4science/genomics.md)
 
 A collection of other awesome lists, some of these lists are no longer under actively maintained:
 

@@ -1,28 +1,27 @@
-Computer Vision
+# Trends
 
-2021
-Taming Transformers for High-Resolution Image Synthesis
-https://arxiv.org/abs/2012.09841
+Maintainer - [Aaron Zhao](https://aaron-zhao123.github.io/)
 
-contrastive language-image pre-training
+Trends comprises a curated selection of notable papers across various fields, representing research advancements we should monitor within the expansive realm of machine learning knowledge.
 
-Denoising Diffusion Probabilistic Models
-https://arxiv.org/abs/2006.11239
+# Computer Vision
 
-Masked Autoencoders Are Scalable Vision Learners
-https://arxiv.org/abs/2111.06377
+### Year 2023
 
-2022
+[Sequential Modeling Enables Scalable Learning for Large Vision Models](https://arxiv.org/abs/2312.00785)
 
+[Segment Anything](https://arxiv.org/abs/2304.02643)
 
+[Consistency Models](https://arxiv.org/abs/2303.01469)
 
-2023
+[3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://arxiv.org/abs/2308.04079)
 
-Segment Anything
-https://arxiv.org/abs/2304.02643
+### Year 2022 and before
 
-Consistency Models
-https://arxiv.org/abs/2303.01469
+[Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377)
 
-3D Gaussian Splatting for Real-Time Radiance Field Rendering
-https://arxiv.org/abs/2308.04079
+[Taming Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2012.09841) (2021) 
+
+[Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.000201) (2020) 
+
+[Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) (2020) 
