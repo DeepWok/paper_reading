@@ -26,3 +26,13 @@ A collection of other awesome lists, some of these lists are no longer under act
 - [Awesome Architecture Search](https://github.com/markdtw/awesome-architecture-search)
 - [Awesome Adversarial Machine Learning](https://github.com/yenchenlin/awesome-adversarial-machine-learning)
 - [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision)
+
+General coding and learning pointers 
+
+- [Modern C++](https://changkun.de/modern-cpp/en-us/01-intro/)
+- [CUDA, The official guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#)
+- [Advanced Computer Architecture](https://www.imperial.ac.uk/computing/current-students/courses/60001/) by Prof. Paul Kelly
+- [SystemVerilog Central](https://www.asic-world.com/systemverilog/index.html), relatively scarce quality learning materials, ASIC-world is maybe your best bet for the syntax learning.
+- [Operating Systems](https://pages.cs.wisc.edu/~bart/537/lecturenotes/titlepage.html), from University of Wisconsin-Madison, short and concise.
+
+
