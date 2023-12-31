@@ -15,3 +15,5 @@ A list of popular LLM network architectures LLM architectures.
 | [mT5: A massively multilingual pre-trained text-to-text transformer](<https://arxiv.org/abs/2010.11934>) | 2021 | Architecture | ACL | [Huggingface](https://huggingface.co/docs/transformers/v4.36.1/en/model_doc/mt5#overview) | mT5 (encoder-decoder) |
 | [Scaling Instruction-Finetuned Language Models](<https://arxiv.org/abs/2210.11416>) | 2022 | Architecture | - | [Huggingface](https://huggingface.co/docs/transformers/model_doc/flan-t5) | FLAN (encoder-decoder) |
 | [Open Pre-trained Transformer Language Models](<https://arxiv.org/abs/2210.11416>) | 2022 | Architecture | - | [Huggingface](https://huggingface.co/docs/transformers/model_doc/flan-t5) | OPT (decoder only) |
+| [LLaMA: Open and Efficient Foundation Language Models](<https://arxiv.org/abs/2302.13971>) | 2023 | Architecture | - | [Huggingface](https://github.com/facebookresearch/llama) | LLaMA (decoder only) |
+| [Llama 2: Open foundation and fine-tuned chat models](<https://arxiv.org/abs/2307.09288>) | 2023 | Architecture | - | [Huggingface](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) | LLaMA2 (decoder only) |
