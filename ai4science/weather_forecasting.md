@@ -69,7 +69,7 @@ https://arxiv.org/abs/2312.15796
 
 https://arxiv.org/abs/2309.17370
 
-- inspired by GraphCast
+- inspired by GraphCast and MultiScaleGraphNets
 - use a hierarchal (multi-layer) mesh for message passing
 - first to investigate weather forecasting in a local area
 - NeurIPS 2023
