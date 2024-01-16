@@ -33,6 +33,8 @@ A repository for curated lists of papers that is relevant to our research, for a
 - Graph Representational Learning 
   - Models and Architectures
 
+- [Diffusion and score based generative models](./diffusion_models/diffusionModels.md)
+
 - [AI4Science](./ai4science/)
   - [Genomics](./ai4science/genomics.md)
 
