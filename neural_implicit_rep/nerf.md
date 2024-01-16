@@ -1,4 +1,4 @@
-# NeRF
+# NeRF Acceleration
 
 Maintainers - [Aaron Zhao](https://aaron-zhao123.github.io/) and [Cheng Zhang](https://chengzhang-98.github.io/blog/)
 
@@ -66,3 +66,17 @@ NeRF is just one of a family of Neural Graphics algorithms.
 - Neural Radiance Field (NeRF)
 - GigaPixel Image Approximation (GIA)
 - Neural Volume Rendering (NVR)
+
+### Real-Time Neural Light Field on Mobile Devices
+
+https://arxiv.org/abs/2212.08057
+
+
+### RT-NeRF: Real-Time On-Device Neural Radiance Fields Towards Immersive AR/VR Rendering
+
+https://arxiv.org/pdf/2212.01120.pdf
+
+
+### Instant NGP
+
+https://nvlabs.github.io/instant-ngp/assets/mueller2022instant.pdf
